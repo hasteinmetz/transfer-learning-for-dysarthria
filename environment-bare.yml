@@ -1,0 +1,17 @@
+name: thesis-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - torch >=1.13.0,<1.4
+  - torchaudio >=0.12.1,<1.4
+  - pandas
+  - numpy
+  - scikit-learn
+  - transformers
+  - datasets
+  - evaluate
+  - jiwer
+  - librosa

@@ -1,0 +1,8 @@
+{
+    "TORGO": "Not in dataset",
+    "UASPEECH": {
+        "wer": 0.19662921348314608,
+        "cer": 0.10527587009328582
+    },
+    "L2Arctic": "Not in dataset"
+}

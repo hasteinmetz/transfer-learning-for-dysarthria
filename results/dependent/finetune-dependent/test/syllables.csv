@@ -1,0 +1,30 @@
+intl,complex_onset,complex_coda,0,1
+1.666,False,False,0.75,4
+1.666,False,True,1.0,2
+2.333,False,False,1.0,14
+2.333,False,True,0.6666666666666666,3
+2.333,True,False,0.5,2
+2.333,True,True,1.0,1
+5.333,False,False,1.0,9
+5.333,False,True,1.0,1
+8,False,False,0.9444444444444444,18
+8,False,True,1.0,1
+8,True,False,1.0,3
+ctl,False,False,0.917981072555205,634
+ctl,False,True,0.7368421052631579,114
+ctl,True,False,0.7413793103448276,58
+ctl,True,True,0.8,5
+high,False,False,0.9090909090909091,66
+high,False,True,0.9090909090909091,11
+high,True,False,0.8,5
+hmid,False,False,0.9024390243902439,41
+hmid,False,True,0.875,8
+hmid,True,False,1.0,1
+low,False,False,0.8717948717948718,39
+low,False,True,0.75,4
+low,True,False,0.75,8
+low,True,True,0.5,2
+very low,False,False,0.9459459459459459,37
+very low,False,True,1.0,3
+very low,True,False,1.0,5
+very low,True,True,1.0,1

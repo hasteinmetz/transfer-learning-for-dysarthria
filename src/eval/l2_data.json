@@ -1,0 +1,28 @@
+{
+    "speakers": {
+        "LABA": "Arabic",
+        "LSKA": "Arabic",
+        "LYBAA": "Arabic",
+        "LZHAA": "Arabic",
+        "LBWC": "Chinese",
+        "LLXC": "Chinese",
+        "LNCC": "Chinese",
+        "LTXHC": "Chinese",
+        "LASI": "Hindi",
+        "LRRBI": "Hindi",
+        "LSVBI": "Hindi",
+        "LTNI": "Hindi",
+        "LHJK": "Korean",
+        "LHKK": "Korean",
+        "LYDCK": "Korean",
+        "LYKWK": "Korean",
+        "LEBVS": "Spanish",
+        "LERMS": "Spanish",
+        "LMBMPS": "Spanish",
+        "LNJS": "Spanish",
+        "LHQTV": "Vietnamese",
+        "LPNV": "Vietnamese",
+        "LTHV": "Vietnamese",
+        "LTLV": "Vietnamese"
+    }
+}

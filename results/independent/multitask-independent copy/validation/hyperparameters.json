@@ -1,0 +1,12 @@
+{
+    "lr": 5e-05,
+    "weight_decay": 0.0001,
+    "warmup_steps": 0,
+    "warmup_ratio": 0.1,
+    "optim": "adamw_hf",
+    "epochs": 10,
+    "loss_weight": [
+        1.35,
+        0.79
+    ]
+}

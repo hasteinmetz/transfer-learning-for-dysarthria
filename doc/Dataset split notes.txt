@@ -1,0 +1,77 @@
+Dataset:
+
+- For some speakers in Torgo (mostly F03 session 2), there are issues with loading the prompts for the wav files. These wav files are ignored.
+- For a speaker in Torgo (F04), the headMic directory is missing for session1. arrayMic is loaded instead.
+- When averaging channels for UA-Speech, there was an issue loading a .wav file (M16/data/M16_B3_UW100_M8.wav). That channel was ignored.
+- Some speech files contain either speech from an RA giving directions or repeated attempts. These files were typically long. 
+    - In order to remove these files without listening to each, I opted to remove all files with durations beyond the 95% of durations for that speaker
+- The TORGO assessment is the Frenchay assessment. To simplify my analysis, I averaged the scores in the subsections of the intelligibility portion.
+- Fixed 0009.txt for F04 in TORGO--there was an error in the .txt file.
+- Visually prompted texts in TORGO were removed from dataset
+
+## TORGO array vs. head microphones
+
+- Listening in, head microphones have better quality
+- There are 5 sessions with just one sort of microphones: data/torgo/M04/Session1, data/torgo/M05/Session2 (head), data/torgo/FC02/Session2, data/torgo/MC04/Session2, data/torgo/F04/Session1
+    > I opt to use one set when the other is unavailable, but the difference in quality is noticeable
+
+## Split Information
+
+{ # rows
+    'to': 8912, 
+    'ua': 21382, 
+    'l2': 26867
+}
+
+{ # pct
+    'to': 0.15591049841675267, 
+    'ua': 0.3740662339707143, 
+    'l2': 0.47002326761253305
+}
+
+{ # pct
+    'to+ua': 0.529976732387467, 
+    'l2': 0.47002326761253305
+}
+
+{ # rows (dys-l2)
+    'dys': 14206,
+    'l2': 26867
+}
+
+{ # pct (dys-l2)
+    'dys': 0.346,
+    'l2': 0.654
+}
+
+{ # rows
+    'to-control': 6143, 
+    'to-dys': 2769, 
+    'ua-control': 9945, 
+    'ua-dys': 11437
+}
+
+{ # pct
+    'to-control': 0.6892953321364452, 
+    'to-dys': 0.3107046678635548, 
+    'ua-control': 0.46511084089421006, 
+    'ua-dys': 0.5348891591057899
+}
+
+{ # all of it
+    "dys": {
+        "train": 11804,
+        "test": 1477,
+        "validation": 1474
+    },
+    "l2": {
+        "train": 21493,
+        "test": 2687,
+        "validation": 2687
+    },
+    "con": {
+        "train": 12645,
+        "test": 1579,
+        "validation": 1582
+    }
+}

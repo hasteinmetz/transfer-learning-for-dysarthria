@@ -1,0 +1,40 @@
+{
+    "UASpeech": {
+        "UM01": "very low", 
+        "UM04": "very low", 
+        "UM05": "mid", 
+        "UM06": "low", 
+        "UM07": "low", 
+        "UM08": "high", 
+        "UM09": "high", 
+        "UM10": "high", 
+        "UF02": "low", 
+        "UF03": "very low", 
+        "UF04": "mid", 
+        "UF05": "high", 
+        "UM11": "mid", 
+        "UM12": "very low", 
+        "UM14": "high", 
+        "UM16": "low"
+    },
+    "TORGO": {
+        "TF01": "2.333",
+        "TF03": "8",
+        "TF04": "8",
+        "TM01": "2.333",
+        "TM02": "2.333",
+        "TM03": "8",
+        "TM04": "1.666",
+        "TM05": "5.333"
+    },
+    "TORGO_MAPPED": {
+        "TF01": "very low",
+        "TF03": "high",
+        "TF04": "high",
+        "TM01": "low",
+        "TM02": "low",
+        "TM03": "high",
+        "TM04": "very low",
+        "TM05": "mid"
+    }
+}

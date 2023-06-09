@@ -1,0 +1,25 @@
+{
+    "DEFAULT_FMT": "(%(levelname)s|%(asctime)s|%(filename)s) >> %(message)s",
+    "DATE_FMT": "%m/%d %H:%M:%S",
+    "MESSAGE": 25,
+    "WATCH_OUT": 35,
+    "DEFAULT_LOG_LEVELS": {
+        "CRITICAL": 50,
+        "FATAL": 50,
+        "ERROR": 40,
+        "WARN": 30,
+        "WARNING": 30,
+        "INFO": 20,
+        "DEBUG": 10,
+        "NOTSET": 0
+    },
+    "DEFAULT_LOG_NAMES": {
+        "50": "CRITICAL",
+        "40": "ERROR",
+        "30": "WARNING",
+        "20": "INFO",
+        "10": "DEBUG",
+        "0": "NOTSET"
+    }
+}
+    
