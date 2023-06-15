@@ -1,5 +1,7 @@
 # Repository for MS Thesis
 
+I submitted my thesis in June 2023. My research question was whether transfer learning methods can be used to transfer knowledge of L2 speech to improve dysarthric speech recognition. I found that knowledge can be transferred from L2 speech to dysarthric speech recognition, improve word error rates. Multitask learning proved to be the best paradigm to facilitate knowledge transfer.
+
 ## License
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
