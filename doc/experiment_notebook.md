@@ -1,17 +1,4 @@
-# To keep track of observations about model training
-
-## Initial experiments not yielding hypothesized results...
-
-### Maybe L2 sentences are overweighted or too distracting
-
-- Remedy options:
-
-1. Weight dysarthric speech more than L2 speech at training time
-2. Make sure that loss values are normalized by length, since losses for L2 might be higher
-
-> To do: 
-> 1. check gradients of loss function by tasks
-> 2. check average loss by task
+# Notebook to keep track of some observations during model training
 
 ## Experiment to test different loss reduction methods
 
