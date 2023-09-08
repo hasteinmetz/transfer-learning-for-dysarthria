@@ -1,8 +1,0 @@
-{
-    "lr": 1e-05,
-    "weight_decay": 0.0,
-    "warmup_steps": 0,
-    "warmup_ratio": 0.0,
-    "optim": "adafactor",
-    "epochs": 12
-}
